@@ -1,0 +1,79 @@
+body {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: none;
+  border-radius: 2%;
+  box-shadow: 2px 2px 15px rgb(218, 218, 218);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+h1 {
+  align-self: center;
+  font-size: 250%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+input[type="text"],
+[type="password"] {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.8rem;
+  margin-right: 2rem;
+}
+
+input[type="button"] {
+  display: flex;
+  justify-self: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgba(236, 174, 58, 0.877);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.accountnagreement {
+  display: flex;
+  flex-direction: column;
+}
+
+.checks {
+  display: flex;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.3rem;
+  margin-right: 2rem;
+}
+
+a {
+  color: rgb(216, 194, 94);
+  text-decoration: none;
+}

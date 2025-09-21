@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><img src="wave.png" type="png" /> Welcome</h1>
+      <form>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="password" />
+        <div class="accountnagreement">
+          <div class="checks">
+            <input type="radio" id="accounttype" />
+            <label for="role"> Personal Account</label>
+          </div>
+          <div class="checks">
+            <input type="radio" id="accounttype" />
+            <label for="role"> Business Account</label>
+          </div>
+          <div class="checks">
+            <input type="checkbox" id="agreement" />
+            <label for="role">
+              I agree to the
+              <a
+                href="https://en.wikipedia.org/wiki/Terms_of_service"
+                target="_blank"
+                >Terms of Service
+              </a>
+            </label>
+          </div>
+        </div>
+        <input type="button" value="SIGN UP" />
+      </form>
+    </div>
+  </body>
+</html>
